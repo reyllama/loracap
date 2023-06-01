@@ -4,6 +4,7 @@
 - LoRA is applied to the text decoder, so the learnable parameters come from either the attention pooler or the low-rank matrices (which is very small in size).
 - The model is trained on a subset (10%) of CC3M dataset, and simple lr scheduling is employed to stablize training.
 - The model demonstrates decent performance after 2-3 epochs, which takes about 2-3 hours (not accurate) on a single A100 GPU.
+- Here I display random images from CC3M validation set and the generated captions. You might want to zoom in to read the sentences (sorry for your inconvenience).
 
 <img src="asset/figure.png" width="1000px">
 <img src="asset/loss.png" width="1000px">
