@@ -5,6 +5,9 @@
 - The model is trained on a subset (10%) of CC3M dataset, and simple lr scheduling is employed to stablize training.
 - The model demonstrates decent performance after 2-3 epochs, which takes about 2-3 hours (not accurate) on a single A100 GPU.
 
+<img src="asset/figure.png" width="1000px">
+<img src="asset/loss.png" width="1000px">
+
 - `train.py` is the file to train the model and log/visualize on the way. Simply running 
 
 ```bash
